@@ -3,14 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Angular -->
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Scripts -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
@@ -18,13 +17,17 @@
             <nav class="navbar navbar-default" id="navbar">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="navbar-brand">My Website</a>
+                        <p class="navbar-text">My Website</p>
                     </div>
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Home</a></li>
+                        <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><img alt="GitHub Account" src="github_logo.png"></img></a></li>
+                        <li><a href="#"><img alt="LinkedIn Account" src="linkedin_logo.png"></img></a></li>
                     </ul>
                 </div>
             </nav>
